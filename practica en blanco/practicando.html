@@ -11,6 +11,10 @@
                 max-width: 800px;
                 margin: 100 auto;
             }
+            #form2 {
+                display: flex;
+                flex-direction: column;
+            }
         </style>
     </head>
 
@@ -33,7 +37,7 @@
                 </tr>
             </table>
         </div>
-        
+
         <div>
             <ol>
                 <li><a href="#etiqueta1"> Enunciado del examen </a> </li>
@@ -41,8 +45,37 @@
             </ol>
         </div>
 
-        <div>
-            <p>Puede realizar consultas completando este formulario:</p>
+        <div class="form">
+            <p>Puede realizar consultas completando el siguiente formulario:</p> 
+            <form id="form2" name="form2" style="max-width: 40%;" action="mailto:incrediblehtml@gmail.com” enctype=text/plain method="post" target="_blank">
+                <div>
+                    <b>E-mail:</b> <input type="text" id="usu1" name="usu1" value="xxx" />
+                </div>
+                <div>
+                    <b>Consulta:</b> <input type="text" id="consulta1" name="consulta1" value="xxx" style="height: 100px;"/>
+                </div>
+                <div colspan="50%">
+                    <input type="submit" id="boton1" name="boton1" value="Enviar" />
+                </div>
+                <div colspan="40%">
+                    <input type="reset" id="boton2" name="boton2" value="Borrar" />
+                </div>
+            </form>1
+        </div>
+
+        <div class="form5">
+            <h2>Contact Form</h2>
+            <form action="/submit-form" method="POST">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <div>
+                    <b>Consulta:</b>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                </div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </form>
         </div>
     </body>
 
