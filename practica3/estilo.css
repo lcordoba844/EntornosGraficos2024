@@ -1,4 +1,14 @@
+    .column1 {
+        background-color: #8a2be2;
+        height: 30px;
+    }
 
-    contenedor {
-        background-color: burlywood;
+    .column2 {
+        background-color: rgb(187, 113, 23);
+        height: 30px;
+    }
+
+    .column3 {
+        background-color: darksalmon;
+        height: 30px;
     }
