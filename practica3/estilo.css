@@ -24,7 +24,46 @@
     }
 
     .filaSide-sm {
-        height: 1000px;
+        height: 830px;
+    }
+
+    .custom-width {
+        width: 230px;
+    }
+
+    .custom-cs-height {
+        width: 275px;
+    }
+
+    .custom-cs-width {
+        width: 636px;
+    }
+
+    @media (max-width: 576px) {
+        /* Ajusta el tamaño del SVG en pantallas pequeñas */
+        .svg-responsive {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        .custom-cs-height {
+            height: 156px;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        .custom-cs-width {
+            width: 156px;
+        }
+    }
+
+
+    @media (max-width: 767.98px) {
+        .custom-width {
+            width: 156px;
+        }
     }
 
     @media (max-width: 767.98px) {
