@@ -20,47 +20,81 @@
             </div>
             <div class="row">
                 <div class="col-sm-3 filaSide-sm mb-4">
-                    <div class=" color2"></div>
+                    <div class="d-flex flex-column color2 justify-content-baseline">
+                        <button type="button" class="btn btn-danger text-white mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            No haga click aqui!
+                        </button>
+                    </div>
                 </div>
                 <div class="col-sm-9 filaSide">
                     <div class="row">
-                        <div class="col-sm-12 mb-4" style="height: 50px;">
-                            <div class="d-flex color4"></div>
+                        <div class="col-sm-12 mb-4" style="height: 75px;">
+                            <div class="d-flex color4 justify-content-center">
+                                <div class="alert alert-success mt-2 mb-2" role="alert">
+                                    Esto ha sido un éxito rotundo.
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-6 col-md-4" style="height: 75px;">
+                            <div class="d-flex color3">
+                                <div class="card">
+                                    <div class="card-body">
+                                      <h3 class="card-title">Titulo</h3>
+                                      <p class="card-text">TextoDescriptivo</p>
+                                      <a href="#" class="btn btn-primary">Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col 6 col-md-4" style="height: 75px;">
+                            <div class="d-flex color3"></div>
+                        </div>
+                        <div class="col-md-4 d-none d-md-block" style="height: 75px;">
+                            <div class="d-flex color3"></div>
                         </div>
                     </div>
                     <div class="row mb-4">
-                        <div class="col-sm-4" style="height: 50px;">
+                        <div class=" col-6 col-md-4" style="height: 75px;">
                             <div class="d-flex color3"></div>
                         </div>
-                        <div class="col-sm-4" style="height: 50px;">
+                        <div class="col-6 col-md-4 " style="height: 75px;">
                             <div class="d-flex color3"></div>
                         </div>
-                        <div class="col-sm-4 d-none d-md-block" style="height: 50px;">
-                            <div class="d-flex color3"></div>
-                        </div>
-                    </div>
-                    <div class="row mb-4">
-                        <div class="col-sm-4" style="height: 50px;">
-                            <div class="d-flex color3"></div>
-                        </div>
-                        <div class="col-sm-4 " style="height: 50px;">
-                            <div class="d-flex color3"></div>
-                        </div>
-                        <div class="col-sm-4 d-none d-md-block" style="height: 50px;">
+                        <div class="col-md-4 d-none d-md-block" style="height: 75px;">
                             <div class="d-flex color3"></div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-4" style="height: 50px;">
+                        <div class="col-6 col-md-4 custom-height">
                             <div class="d-flex color1"></div>
                         </div>
-                        <div class="col-sm-8" style="height: 50px;">
+                        <div class=" col-6 col-md-8 custom-height">
                             <div class="d-flex color1"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Práctica de Bootstrap</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Puede guardar los cambios inexistentes o volver a la pagina inicial.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Guardar cambios</button>
+                    </div>
+                </div>
+            </div>
+        </div>  
     </body>
 </html>

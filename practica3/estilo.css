@@ -24,15 +24,25 @@
     }
 
     .filaSide {
-        height: 272px;
+        height: 372px;
     }
 
     .filaSide-sm {
-        height: 272px;
+        height: 372px;
     }
 
     @media (max-width: 767.98px) {
         .filaSide-sm {
-            height: 75px;
+            height: 90px;
+        }
+    }
+
+    .custom-height {
+        height: 75px;   
+    }
+
+    @media (max-width: 767.98px) {
+        .custom-height {
+            height: 150px;
         }
     }
