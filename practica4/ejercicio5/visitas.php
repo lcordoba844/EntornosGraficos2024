@@ -1,6 +1,6 @@
 <html>
     <head></head>
     <body>
-        <? include("contador.php")?>
+        <?php include("contador.php"); ?>
     </body>
 </html>
