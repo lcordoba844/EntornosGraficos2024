@@ -1,4 +1,4 @@
-<?
+<?php
     // Archivo para acumular el numero de visitas
     $archivo = "contador.dat";
     // Abrir el archivo para lectura
@@ -16,5 +16,5 @@
     // Cerrar el archivo
     fclose($abrir);
     // Mostrar el total de visitas
-    echo "<font face='arial' size='3'>Cantidad de visitas:".$cont."</font>";
+    echo "<font face='arial' size='3'>Cantidad de visitas: $cont</font>";
 ?>
