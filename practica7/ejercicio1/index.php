@@ -19,14 +19,13 @@
         ?>
     </head>
     <body>
-        <h1>Bienvenido a la página, elige tu propio estilo</h1>
         <form action="index.php" method="post"> Seleccionar el estilo que deseas visualizar en la página:
             <br><br>
             <select name="estilo">
-                <option value="amarillo">Amarillo
-                <option value="azul">Azul
-                <option value="rosa">Rosa
-                <option value="verde">Verde
+                <option value="estilo1">Crema
+                <option value="estilo2">Mar
+                <option value="estilo3">Rosas
+                <option value="estilo4">Selva
             </select>
             <input type="submit" value="Cambiar estilo">
         </form>
