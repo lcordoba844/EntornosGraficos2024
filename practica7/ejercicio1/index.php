@@ -20,7 +20,7 @@
     </head>
     <body>
         <form action="index.php" method="post"> Seleccionar el estilo que deseas visualizar en la página:
-            <br><br>
+            <br>
             <select name="estilo">
                 <option value="estilo1">Crema
                 <option value="estilo2">Mar
