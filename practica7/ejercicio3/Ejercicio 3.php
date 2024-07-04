@@ -18,7 +18,7 @@ if(isset($_POST["usuario"])){
     if(isset($_COOKIE["usuario"])){
       echo("<h1>Bienvenido de nuevo ".$usuario."!!</h1>");
       ?>
-      <form action="Ejercicio 3.php" method="post">Ingrese su nuevo nombre de usuario si así lo desea
+      <form action="Ejercicio 3.php" method="post">Ingrese un nuevo nombre de usuario
         <br>
         <p>Nombre de usuario: </p>
         <input type="text" name="usuario" size="20" maxlength="20" value="<?php echo($usuario); ?>">

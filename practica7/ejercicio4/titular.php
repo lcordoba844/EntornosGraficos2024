@@ -15,12 +15,6 @@ if(isset($_POST["titular"])){
 <html>
 <head>
   <title>Ejercicio 4</title>
-  <style>
-    body{
-      background-color: gainsboro;
-      font: sans-serif;
-    }
-  </style>
 </head>
 <body>
   <h1>NOTICIAS!!<h1>
